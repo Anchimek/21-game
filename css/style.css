@@ -73,6 +73,8 @@
           align-items: center;
   height: 20%;
   color: var(--mainYellow);
+  -webkit-animation: fadeIn .5s ease;
+          animation: fadeIn .5s ease;
 }
 
 .container .game--card--move h1, .container .game--card--scores h1 {
@@ -87,6 +89,8 @@
   background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
   -webkit-animation: bg 5s linear infinite;
           animation: bg 5s linear infinite;
+  -webkit-animation: fadeIn .5s ease;
+          animation: fadeIn .5s ease;
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -113,6 +117,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
+  -webkit-animation: fadeIn .5s ease;
+          animation: fadeIn .5s ease;
 }
 
 .container .game--card--scores span {

@@ -29,7 +29,8 @@
             justify-content: center;
             align-items: center;
             height: 20%;
-            color: var(--mainYellow);    
+            color: var(--mainYellow); 
+            animation: fadeIn .5s ease;
             h1 {
                 font-size: 1.5em;
             }
@@ -39,6 +40,7 @@
                 margin-top: 10px;
                 background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
                 animation: bg 5s linear infinite;
+                animation: fadeIn .5s ease;
                 background-clip: text;
                 -webkit-background-clip: text;
                 @keyframes bg {
@@ -55,6 +57,7 @@
             @extend .game--card--move;
             justify-content: space-around;
             text-align: center;
+            animation: fadeIn .5s ease;
             span {
                 font-size: 1em;
             }
